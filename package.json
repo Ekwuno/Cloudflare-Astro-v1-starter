@@ -1,0 +1,21 @@
+{
+  "name": "@example/blog",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "npx wrangler pages dev -- astro dev",
+    "build": "astro build",
+    "preview": "npx wrangler pages dev -- astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@astrojs/cloudflare": "^1.0.1",
+    "@astrojs/preact": "^1.0.0",
+    "astro": "^1.0.1"
+  },
+  "dependencies": {
+    "preact": "^10.7.3",
+    "wrangler": "^2.0.25"
+  }
+}
